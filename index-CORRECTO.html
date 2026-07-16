@@ -23,18 +23,27 @@
         </div>
     </nav>
 
-    <!-- CREENCIA 1: EL DESPERTAR - Hero Section -->
-    <section class="max-w-6xl mx-auto px-4 py-20 text-center">
-        <h2 class="text-5xl font-bold text-blue-900 mb-4">
-            Tu dolor de cuello al despertar NO tiene que ser permanente
-        </h2>
-        <p class="text-xl text-gray-700 mb-6 max-w-3xl mx-auto leading-relaxed">
-            Hay personas exactamente como tú que tenían dolor matutino en cervicales y espalda, y <span class="font-bold text-blue-700">ya no lo tienen</span>. 
-            El cambio empezó con una simple decisión.
-        </p>
-        <button onclick="whatsapp('Quiero saber cómo eliminar mi dolor de cuello al despertar')" class="bg-blue-900 text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-blue-800 transition transform hover:scale-105">
-            Descubre Cómo
-        </button>
+    <!-- CREENCIA 1: EL DESPERTAR - Hero Section CON IMAGEN -->
+    <section class="max-w-6xl mx-auto px-4 py-12">
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+            <!-- Texto Hero -->
+            <div>
+                <h2 class="text-5xl font-bold text-blue-900 mb-4">
+                    Tu dolor de cuello al despertar NO tiene que ser permanente
+                </h2>
+                <p class="text-xl text-gray-700 mb-6 leading-relaxed">
+                    Hay personas exactamente como tú que tenían dolor matutino en cervicales y espalda, y <span class="font-bold text-blue-700">ya no lo tienen</span>. 
+                    El cambio empezó con una simple decisión.
+                </p>
+                <button onclick="whatsapp('Quiero saber cómo eliminar mi dolor de cuello al despertar')" class="bg-blue-900 text-white px-8 py-4 rounded-lg text-lg font-bold hover:bg-blue-800 transition transform hover:scale-105">
+                    Descubre Cómo
+                </button>
+            </div>
+            <!-- Imagen Hero -->
+            <div class="flex justify-center">
+                <img src="images/play.png" alt="Almohada Vital Rest 3D" class="max-w-full h-auto rounded-lg shadow-xl">
+            </div>
+        </div>
     </section>
 
     <!-- CREENCIA 2: LA CAUSA -->
@@ -63,40 +72,46 @@
         </div>
     </section>
 
-    <!-- CREENCIA 3: LA SOLUCIÓN -->
+    <!-- CREENCIA 3: LA SOLUCIÓN - CON IMÁGENES DEL PRODUCTO -->
     <section class="max-w-6xl mx-auto px-4 py-20">
         <h3 class="text-3xl font-bold text-center text-blue-900 mb-12">La diferencia de Vital Rest</h3>
-        <div class="grid md:grid-cols-2 gap-10 items-center">
-            <div class="bg-gradient-to-br from-blue-100 to-gray-100 p-8 rounded-lg h-96 flex items-center justify-center">
-                <div class="text-center">
-                    <div class="text-6xl mb-4">🛏️</div>
-                    <p class="text-gray-700 text-sm">Diseño 3D con alineación cervical perfecta</p>
-                </div>
+        
+        <!-- Galería de producto -->
+        <div class="grid md:grid-cols-2 gap-8 mb-12">
+            <div class="rounded-lg overflow-hidden shadow-lg">
+                <img src="images/producto-1.jpg" alt="Almohada Vital Rest - Vista lateral" class="w-full h-96 object-cover">
             </div>
-            <div class="space-y-6">
-                <div class="border-l-4 border-blue-900 pl-6">
-                    <h4 class="text-2xl font-bold text-blue-900 mb-2">Forma Anatómica 3D</h4>
-                    <p class="text-gray-700">
-                        No es una almohada normal. Tiene forma de mariposa que sostiene tu cuello en la posición perfecta toda la noche.
-                    </p>
-                </div>
-                <div class="border-l-4 border-blue-900 pl-6">
-                    <h4 class="text-2xl font-bold text-blue-900 mb-2">Alineación Cervical Precisa</h4>
-                    <p class="text-gray-700">
-                        Mantiene tu columna vertebral alineada mientras duermes, liberando la tensión acumulada.
-                    </p>
-                </div>
-                <div class="border-l-4 border-blue-900 pl-6">
-                    <h4 class="text-2xl font-bold text-blue-900 mb-2">Diferente a Cualquier Otra</h4>
-                    <p class="text-gray-700">
-                        Hemos probado almohadas normales, de espuma, de gel. Vital Rest es en otro nivel.
-                    </p>
+            <div>
+                <div class="space-y-6">
+                    <div class="border-l-4 border-blue-900 pl-6">
+                        <h4 class="text-2xl font-bold text-blue-900 mb-2">Forma Anatómica 3D</h4>
+                        <p class="text-gray-700">
+                            No es una almohada normal. Tiene forma de mariposa que sostiene tu cuello en la posición perfecta toda la noche.
+                        </p>
+                    </div>
+                    <div class="border-l-4 border-blue-900 pl-6">
+                        <h4 class="text-2xl font-bold text-blue-900 mb-2">Alineación Cervical Precisa</h4>
+                        <p class="text-gray-700">
+                            Mantiene tu columna vertebral alineada mientras duermes, liberando la tensión acumulada.
+                        </p>
+                    </div>
+                    <div class="border-l-4 border-blue-900 pl-6">
+                        <h4 class="text-2xl font-bold text-blue-900 mb-2">Diferente a Cualquier Otra</h4>
+                        <p class="text-gray-700">
+                            Hemos probado almohadas normales, de espuma, de gel. Vital Rest es en otro nivel.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <!-- Segunda imagen de producto -->
+        <div class="rounded-lg overflow-hidden shadow-lg mb-12">
+            <img src="images/producto-2.jpg" alt="Almohada Vital Rest - Detalle" class="w-full h-96 object-cover">
+        </div>
     </section>
 
-    <!-- CREENCIA 4: LA PRUEBA - Testimonios -->
+    <!-- CREENCIA 4: LA PRUEBA - Testimonios CON FOTOS REALES -->
     <section class="bg-gradient-to-b from-gray-50 to-white py-20">
         <div class="max-w-6xl mx-auto px-4">
             <h3 class="text-3xl font-bold text-center text-blue-900 mb-4">
@@ -107,70 +122,64 @@
             </p>
 
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- Testimonio 1 -->
-                <div class="bg-white border-2 border-blue-200 rounded-lg p-8 shadow-sm hover:shadow-lg transition">
-                    <div class="flex items-center gap-4 mb-4">
-                        <div class="w-14 h-14 bg-blue-200 rounded-full flex items-center justify-center text-2xl">👵</div>
-                        <div>
-                            <h4 class="font-bold text-gray-900">Carmen Rodríguez</h4>
-                            <p class="text-xs text-gray-500">Medellín, 67 años</p>
+                <!-- Testimonio 1 - Carmen -->
+                <div class="bg-white border-2 border-blue-200 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition">
+                    <img src="images/testimonio-carmen.jpg" alt="Carmen Rodríguez" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h4 class="font-bold text-gray-900 text-lg">Carmen Rodríguez</h4>
+                        <p class="text-sm text-gray-500 mb-3">Medellín, 64 años</p>
+                        <div class="flex gap-1 mb-3">
+                            <span class="text-yellow-400">★</span>
+                            <span class="text-yellow-400">★</span>
+                            <span class="text-yellow-400">★</span>
+                            <span class="text-yellow-400">★</span>
+                            <span class="text-yellow-400">★</span>
                         </div>
+                        <p class="text-gray-700 italic text-sm">
+                            "Llevo 30 años con dolor de cuello. Pensé que era así de por vida. Con Vital Rest me desperté sin dolor la primera semana. No puedo creerlo."
+                        </p>
+                        <p class="text-xs text-gray-500 mt-3">Verificado • Compra confirmada</p>
                     </div>
-                    <div class="flex gap-1 mb-3">
-                        <span class="text-yellow-400">★</span>
-                        <span class="text-yellow-400">★</span>
-                        <span class="text-yellow-400">★</span>
-                        <span class="text-yellow-400">★</span>
-                        <span class="text-yellow-400">★</span>
-                    </div>
-                    <p class="text-gray-700 italic">
-                        "Llevo 30 años con dolor de cuello. Pensé que era así de por vida. Con Vital Rest me desperté sin dolor la primera semana. No puedo creerlo."
-                    </p>
-                    <p class="text-xs text-gray-500 mt-3">Verificado • Compra confirmada</p>
                 </div>
 
-                <!-- Testimonio 2 -->
-                <div class="bg-white border-2 border-blue-200 rounded-lg p-8 shadow-sm hover:shadow-lg transition">
-                    <div class="flex items-center gap-4 mb-4">
-                        <div class="w-14 h-14 bg-blue-200 rounded-full flex items-center justify-center text-2xl">👨</div>
-                        <div>
-                            <h4 class="font-bold text-gray-900">Jorge Martínez</h4>
-                            <p class="text-xs text-gray-500">Medellín, 52 años</p>
+                <!-- Testimonio 2 - Hombre -->
+                <div class="bg-white border-2 border-blue-200 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition">
+                    <img src="images/testimonio-hombre.jpg" alt="Hombre testimonio" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h4 class="font-bold text-gray-900 text-lg">Jorge Martínez</h4>
+                        <p class="text-sm text-gray-500 mb-3">Medellín, 52 años</p>
+                        <div class="flex gap-1 mb-3">
+                            <span class="text-yellow-400">★</span>
+                            <span class="text-yellow-400">★</span>
+                            <span class="text-yellow-400">★</span>
+                            <span class="text-yellow-400">★</span>
+                            <span class="text-yellow-400">★</span>
                         </div>
+                        <p class="text-gray-700 italic text-sm">
+                            "Por mi trabajo estoy sentado todo el día. La espalda y cuello me mataban. Después de 2 semanas con Vital Rest, cambió completamente. Duermo mejor, trabajo mejor."
+                        </p>
+                        <p class="text-xs text-gray-500 mt-3">Verificado • Compra confirmada</p>
                     </div>
-                    <div class="flex gap-1 mb-3">
-                        <span class="text-yellow-400">★</span>
-                        <span class="text-yellow-400">★</span>
-                        <span class="text-yellow-400">★</span>
-                        <span class="text-yellow-400">★</span>
-                        <span class="text-yellow-400">★</span>
-                    </div>
-                    <p class="text-gray-700 italic">
-                        "Por mi trabajo estoy sentado todo el día. La espalda y cuello me mataban. Después de 2 semanas con Vital Rest, cambió completamente. Duermo mejor, trabajo mejor."
-                    </p>
-                    <p class="text-xs text-gray-500 mt-3">Verificado • Compra confirmada</p>
                 </div>
 
-                <!-- Testimonio 3 -->
-                <div class="bg-white border-2 border-blue-200 rounded-lg p-8 shadow-sm hover:shadow-lg transition">
-                    <div class="flex items-center gap-4 mb-4">
-                        <div class="w-14 h-14 bg-blue-200 rounded-full flex items-center justify-center text-2xl">👩‍🦳</div>
-                        <div>
-                            <h4 class="font-bold text-gray-900">Rosa María Gómez</h4>
-                            <p class="text-xs text-gray-500">Medellín, 64 años</p>
+                <!-- Testimonio 3 - Mujer 2 -->
+                <div class="bg-white border-2 border-blue-200 rounded-lg overflow-hidden shadow-sm hover:shadow-lg transition">
+                    <img src="images/testimonio-mujer.jpg" alt="Mujer testimonio" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h4 class="font-bold text-gray-900 text-lg">Rosa María Gómez</h4>
+                        <p class="text-sm text-gray-500 mb-3">Medellín, 65 años</p>
+                        <div class="flex gap-1 mb-3">
+                            <span class="text-yellow-400">★</span>
+                            <span class="text-yellow-400">★</span>
+                            <span class="text-yellow-400">★</span>
+                            <span class="text-yellow-400">★</span>
+                            <span class="text-yellow-400">★</span>
                         </div>
+                        <p class="text-gray-700 italic text-sm">
+                            "Mis hijas me la regalaron porque andaba insoportable con el dolor. Me dormía enojada. Ahora duermo como adolescente. Es lo mejor que me han regalado."
+                        </p>
+                        <p class="text-xs text-gray-500 mt-3">Verificado • Compra confirmada</p>
                     </div>
-                    <div class="flex gap-1 mb-3">
-                        <span class="text-yellow-400">★</span>
-                        <span class="text-yellow-400">★</span>
-                        <span class="text-yellow-400">★</span>
-                        <span class="text-yellow-400">★</span>
-                        <span class="text-yellow-400">★</span>
-                    </div>
-                    <p class="text-gray-700 italic">
-                        "Mis hijas me la regalaron porque andaba insoportable con el dolor. Me dormía enojada. Ahora duermo como adolescente. Es lo mejor que me han regalado."
-                    </p>
-                    <p class="text-xs text-gray-500 mt-3">Verificado • Compra confirmada</p>
                 </div>
             </div>
         </div>
